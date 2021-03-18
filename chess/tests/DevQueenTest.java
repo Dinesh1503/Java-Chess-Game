@@ -120,6 +120,7 @@ public class DevQueenTest {
 		setUpforQueenB();
 		Queen q = (Queen) Board.getPiece(7,3);
 		assertFalse(q.isLegitMove(7,3,7,3));
+
 	}
 	
 	@Test
